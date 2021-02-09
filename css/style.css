@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-image: url('../media/gif/void.gif');
     background-size: cover;
+    margin: 0;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h1 {
 
 /* copied out of internet */
 img {
-    animation: mover 1.5s infinite  alternate;
+    animation: mover 1.75s infinite  alternate;
 }
 
 @keyframes mover {
