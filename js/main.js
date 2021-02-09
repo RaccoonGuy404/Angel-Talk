@@ -24,7 +24,6 @@ var chatNumber = 0;
 var i = 0;
 function angelChat() {
     var text = talkAngel[chatNumber];
-    console.log(text);
     var speed = 80;
 
     if (i < text.length){
