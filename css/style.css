@@ -1,5 +1,8 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arimo', sans-serif;
     text-align: center;
     background-image: url('../media/gif/void.gif');
     background-size: cover;
@@ -11,6 +14,7 @@ h1 {
     background-color: azure;
 }
 
+/* chatbox */
 #angelBox {
     width: 250px;
     height: max-content;
@@ -21,11 +25,11 @@ h1 {
 
 #divChat {
     padding: 10px;
-    height: 50px;
     background-color: azure;
+    animation: slide 2.5s forwards;
 }
 
-/* copied out of internet */
+/* animations */
 img {
     animation: mover 1.75s infinite  alternate;
 }
@@ -33,4 +37,9 @@ img {
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-80px); }
+}
+
+@keyframes slide {
+    0% {width: 0px;}
+    100% {width: 99%;}
 }
