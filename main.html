@@ -7,15 +7,19 @@
         <link rel="shortcut icon" href="fav-icon.png">
         <script src="js/main.js" defer></script>
     </head>
-    <body onload="angelChat()">
+    <body>
         <h1>Void</h1>
         <br><br><br>
         <div id="angel_pic" style="display: flex; justify-content: center;">
             <p id="angelBox"></p>
+            <div id="divStart">
+                <button id="btnStart">Start to Talk</button>
+            </div>
             <img src="media/png/angel_1.png" height="600px">
         </div>
+
         <br><br>
-        <div id="divChat" style="display: flex; justify-content: center;">
+        <div id="divChat" style="display: none; justify-content: center;">
             <table id="tblChat">
                 <tr>
                     <td><button id="btn1">Where?</button></td>
